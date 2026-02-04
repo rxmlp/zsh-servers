@@ -60,7 +60,7 @@ alias shutdown="sudo shutdown now"
 alias reboot="sudo shutdown now -r"
 alias syson="systemctl start"
 alias sysoff="systemctl stop"
-alias sys?="systemctl status"
+alias sys="systemctl"
 alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
 
 
